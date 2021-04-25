@@ -1,0 +1,14 @@
+extends ../../welcome
+
+block title
+    title contacts
+block content
+    content.content
+        .content__wrapper
+            h1 contacts
+
+            .contacts
+                input.input(placeholder="your name")
+                input.input(placeholder="your e-mail")
+                textarea.textarea(placeholder="your message")
+                button.button(type="button") send

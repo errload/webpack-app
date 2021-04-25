@@ -1,0 +1,31 @@
+.content {
+    &__wrapper {
+        padding: 50px 20px;
+        width: 600px;
+        margin: 0 auto;
+
+        h1 {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+
+            @media screen and(max-width: 767px) {
+                font-size: 26px;
+            }
+        }
+
+        p {
+            text-align: center;
+            margin-top: 50px;
+            line-height: 26px;
+
+            @media screen and(max-width: 767px) {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and(max-width: 767px) {
+            width: calc(100% - 40px);
+        }
+    }
+}

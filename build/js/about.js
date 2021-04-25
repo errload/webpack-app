@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=function(e,t){let a=document.createElement("ul");a.className="menu";let n="";return["main","about me","contacts"].forEach((e=>{n+="main"==e?`<li><a href="/">${e}</a></li>`:`<li><a href="/${e.split(" ").join("")}.html">${e}</a></li>`})),a.innerHTML=n,a}();document.querySelector(".menu__wrapper").append(e)})();
